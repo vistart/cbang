@@ -34,13 +34,13 @@
 #include "Vector.h"
 
 namespace cb {
-  typedef Vector<3, Vector2I> Triangle2I;
-  typedef Vector<3, Vector2U> Triangle2U;
-  typedef Vector<3, Vector2D> Triangle2D;
-  typedef Vector<3, Vector2F> Triangle2F;
+  typedef Vector<3, Vector2I> Triangle2I; // 平面整数坐标三角形。
+  typedef Vector<3, Vector2U> Triangle2U; // 平面非负整数坐标三角形。即三角只出现在第一象限。
+  typedef Vector<3, Vector2D> Triangle2D; // 平面双精度浮点数坐标三角形。
+  typedef Vector<3, Vector2F> Triangle2F; // 平面单精度浮点数坐标三角形。
 
-  typedef Vector<3, Vector3I> Triangle3I;
-  typedef Vector<3, Vector3U> Triangle3U;
-  typedef Vector<3, Vector3D> Triangle3D;
-  typedef Vector<3, Vector3F> Triangle3F;
+  typedef Vector<3, Vector3I> Triangle3I; // 立体整数坐标三角形。
+  typedef Vector<3, Vector3U> Triangle3U; // 立体非负整数坐标三角形。即三角只出现在第一卦限。
+  typedef Vector<3, Vector3D> Triangle3D; // 立体双精度浮点数坐标三角形。
+  typedef Vector<3, Vector3F> Triangle3F; // 立体单精度浮点数坐标三角形。
 }
